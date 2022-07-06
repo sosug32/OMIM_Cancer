@@ -69,5 +69,7 @@ caEnrich <- lapply(calist, RGLM) %>% rbind.data.frame()
 caEnrich$OR <- exp(caEnrich$Estimate)
 caEnrich <- caEnrich[order(caEnrich$OR, decreasing = T), ]
 
+caEnrich <- caEnrich[,c(7,5,1,6,4)]
+
 head(caEnrich)
 write.table(genev, "Cancer_Enrich.sig.can.table.tsv", sep = "\t")
