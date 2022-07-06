@@ -5,4 +5,8 @@ Despite recent insights into cancer predisposition genes (CPGs), the contributio
 
 
 **###System Requirements (Functions)**
-: packages(c('ggplot2', 'dplyr', 'stringi', 'reshape2', 'biomart', 'ggpubr', 'gridExtra', 'tclust', 'tclust', 'tclust', 'tclust'))
+All packages should be installed prior to the analysis process which will take time less than a minute on a "normal" desktop computer.
+: install.packages(c('ggplot2', 'dplyr', 'stringi', 'reshape2', 'biomart', 'ggpubr', 'gridExtra', 'tclust', 'tclust', 'tclust', 'tclust'))
+
+
+
